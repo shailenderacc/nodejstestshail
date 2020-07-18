@@ -12,6 +12,8 @@ const sum = add(4,5)
 
 const msg = getNotes()
 
+const greenMsg = chalk.red.bold('Error!!')
+
 console.log(msg)
 
 console.log(firstName)
@@ -22,7 +24,7 @@ console.log(validator.isEmail('example.com'))
 
 console.log(validator.isURL('www.xxx.com'))
 
-console.log(chalk.green.bgRedBright.inverse('Success!!'))
+console.log(greenMsg)
 
 
 
